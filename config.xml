@@ -28,22 +28,22 @@
   
   
     <platform name="android">
-        <!--<icon background="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" density="ldpi" foreground="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" />
+        <icon background="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" density="ldpi" foreground="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" />
         <icon background="res/icon/android/mdpi_1616280047_62bcce5bc1d204c540dd.png" density="mdpi" foreground="res/icon/android/mdpi_1616280047_62bcce5bc1d204c540dd.png" />
         <icon background="res/icon/android/hdpi_1616280047_62bcce5bc1d204c540dd.png" density="hdpi" foreground="res/icon/android/hdpi_1616280047_62bcce5bc1d204c540dd.png" />
         <icon background="res/icon/android/xhdpi_1616280047_62bcce5bc1d204c540dd.png" density="xhdpi" foreground="res/icon/android/xhdpi_1616280047_62bcce5bc1d204c540dd.png" />
         <icon background="res/icon/android/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" density="xxhdpi" foreground="res/icon/android/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" />
         <icon background="res/icon/android/xxxhdpi_1616280047_62bcce5bc1d204c540dd.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi_1616280047_62bcce5bc1d204c540dd.png" />
         
-      <splash background="res/screen/android/hdpi_port_1616280181_5d98825c56487c784667.png" density="port-hdpi" foreground="res/screen/android/hdpi_port_1616280181_5d98825c56487c784667.png" />
-        <splash background="res/screen/android/ldpi_port_1616280181_5d98825c56487c784667.png" density="port-ldpi" foreground="res/screen/android/ldpi_port_1616280181_5d98825c56487c784667.png" />
-        <splash background="res/screen/android/mdpi_port_1616280181_5d98825c56487c784667.png" density="port-mdpi" foreground="res/screen/android/mdpi_port_1616280181_5d98825c56487c784667.png" />
-        <splash background="res/screen/android/xhdpi_port_1616280181_5d98825c56487c784667.png" density="port-xhdpi" foreground="res/screen/android/xhdpi_port_1616280181_5d98825c56487c784667.png" />
-        <splash background="res/screen/android/hdpi_land_1616280181_5d98825c56487c784667.png" density="land-hdpi" foreground="res/screen/android/hdpi_land_1616280181_5d98825c56487c784667.png" />
-        <splash background="res/screen/android/ldpi_land_1616280181_5d98825c56487c784667.png" density="land-ldpi" foreground="res/screen/android/ldpi_land_1616280181_5d98825c56487c784667.png" />
-        <splash background="res/screen/android/mdpi_land_1616280181_5d98825c56487c784667.png" density="land-mdpi" foreground="res/screen/android/mdpi_land_1616280181_5d98825c56487c784667.png" />
-        <splash background="res/screen/android/xhdpi_land_1616280181_5d98825c56487c784667.png" density="land-xhdpi" foreground="res/screen/android/xhdpi_land_1616280181_5d98825c56487c784667.png" />
- -->  
+      <splash src="res/screen/android/hdpi_port_1616280181_5d98825c56487c784667.png" density="port-hdpi" />
+        <splash src="res/screen/android/ldpi_port_1616280181_5d98825c56487c784667.png" density="port-ldpi" />
+        <splash src="res/screen/android/mdpi_port_1616280181_5d98825c56487c784667.png" density="port-mdpi" />
+        <splash src="res/screen/android/xhdpi_port_1616280181_5d98825c56487c784667.png" density="port-xhdpi" />
+        <splash src="res/screen/android/hdpi_land_1616280181_5d98825c56487c784667.png" density="land-hdpi" />
+        <splash src="res/screen/android/ldpi_land_1616280181_5d98825c56487c784667.png" density="land-ldpi" />
+        <splash src="res/screen/android/mdpi_land_1616280181_5d98825c56487c784667.png" density="land-mdpi" />
+        <splash src="res/screen/android/xhdpi_land_1616280181_5d98825c56487c784667.png" density="land-xhdpi" />
+ 
  </platform>
     <access origin='*'/>
     <plugin name='cordova-plugin-whitelist' />

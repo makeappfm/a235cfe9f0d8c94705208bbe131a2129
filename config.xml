@@ -18,12 +18,12 @@
     <preference name="SplashMaintainAspectRatio" value="false" />
     <preference name="SplashScreenSpinnerColor" value="#ffffff" />
     <preference name="Fullscreen" value="false" />
-    <icon src="res/android/icon/ldpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="ldpi" />
+<!--    <icon src="res/android/icon/ldpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="ldpi" />
     <icon src="res/android/icon/mdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="mdpi" />
     <icon src="res/android/icon/hdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="hdpi" />
     <icon src="res/android/icon/xhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="hdpi" />
     <icon src="res/android/icon/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="xhdpi" />
-    <icon src="res/android/icon/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="xxhdpi" />
+    <icon src="res/android/icon/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="xxhdpi" />-->
   
   
   

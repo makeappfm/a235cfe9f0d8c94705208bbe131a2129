@@ -1,5 +1,46 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.test.test1" version="1.0.0" android-versionCode="8.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<cordova>
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="UIWebViewBounce" value="true" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="EnableLocation" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+
+    <content src="index.html" />
+
+    <plugins>
+        <plugin name="Device" value="CDVDevice" />
+        <plugin name="Logger" value="CDVLogger" />
+        <plugin name="Compass" value="CDVLocation" />
+        <plugin name="Accelerometer" value="CDVAccelerometer" />
+        <plugin name="Camera" value="CDVCamera" />
+        <plugin name="NetworkStatus" value="CDVConnection" />
+        <plugin name="Contacts" value="CDVContacts" />
+        <plugin name="Debug Console" value="CDVDebugConsole" />
+        <plugin name="Echo" value="CDVEcho" />
+        <plugin name="File" value="CDVFile" />
+        <plugin name="FileTransfer" value="CDVFileTransfer" />
+        <plugin name="Geolocation" value="CDVLocation" />
+        <plugin name="Notification" value="CDVNotification" />
+        <plugin name="Media" value="CDVSound" />
+        <plugin name="Capture" value="CDVCapture" />
+        <plugin name="SplashScreen" value="CDVSplashScreen" />
+        <plugin name="Battery" value="CDVBattery" />
+        <plugin name="Globalization" value="CDVGlobalization" />
+        <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+        <plugin name="File" value="CDVFile" />
+        <plugin name="FileTransfer" value="CDVFileTransfer" />
+    </plugins>
+
+    <access origin="*" />
+</cordova>
+<!--<widget id="com.test.test1" version="1.0.0" android-versionCode="8.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>HelloCordova</name>
   <description>
     A sample Apache Cordova application that responds to the deviceready event.
@@ -26,7 +67,7 @@
   <icon src="res/android/icon/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="xhdpi" />
   <icon src="res/android/icon/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="xxhdpi" />-->
 
-  <platform name="android">
+<!--  <platform name="android">
     <icon background="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" density="ldpi" foreground="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" />
     <icon background="res/icon/android/mdpi_1616280047_62bcce5bc1d204c540dd.png" density="mdpi" foreground="res/icon/android/mdpi_1616280047_62bcce5bc1d204c540dd.png" />
     <icon background="res/icon/android/hdpi_1616280047_62bcce5bc1d204c540dd.png" density="hdpi" foreground="res/icon/android/hdpi_1616280047_62bcce5bc1d204c540dd.png" />
@@ -79,7 +120,7 @@
         <splash background="res/android/screen/xhdpi_land_1616280181_5d98825c56487c784667.png" density="land-xhdpi" foreground="res/android/screen/xhdpi_land_1616280181_5d98825c56487c784667.png" />
 
   </platform>-->
-</widget>
+<!--</widget>
 
 <!--<?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"

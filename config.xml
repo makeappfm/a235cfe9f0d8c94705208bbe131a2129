@@ -18,8 +18,17 @@
     <preference name="SplashMaintainAspectRatio" value="false" />
     <preference name="SplashScreenSpinnerColor" value="#ffffff" />
     <preference name="Fullscreen" value="false" />
+    <icon src="res/android/icon/ldpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="ldpi" />
+    <icon src="res/android/icon/mdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="mdpi" />
+    <icon src="res/android/icon/hdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="hdpi" />
+    <icon src="res/android/icon/xhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="hdpi" />
+    <icon src="res/android/icon/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="xhdpi" />
+    <icon src="res/android/icon/xxhdpi_1616280047_62bcce5bc1d204c540dd.png" platform="android" density="xxhdpi" />
+  
+  
+  
     <platform name="android">
-        <icon background="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" density="ldpi" foreground="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" />
+        <!--<icon background="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" density="ldpi" foreground="res/icon/android/ldpi_1616280047_62bcce5bc1d204c540dd.png" />
         <icon background="res/icon/android/mdpi_1616280047_62bcce5bc1d204c540dd.png" density="mdpi" foreground="res/icon/android/mdpi_1616280047_62bcce5bc1d204c540dd.png" />
         <icon background="res/icon/android/hdpi_1616280047_62bcce5bc1d204c540dd.png" density="hdpi" foreground="res/icon/android/hdpi_1616280047_62bcce5bc1d204c540dd.png" />
         <icon background="res/icon/android/xhdpi_1616280047_62bcce5bc1d204c540dd.png" density="xhdpi" foreground="res/icon/android/xhdpi_1616280047_62bcce5bc1d204c540dd.png" />
@@ -34,7 +43,8 @@
         <splash background="res/screen/android/ldpi_land_1616280181_5d98825c56487c784667.png" density="land-ldpi" foreground="res/screen/android/ldpi_land_1616280181_5d98825c56487c784667.png" />
         <splash background="res/screen/android/mdpi_land_1616280181_5d98825c56487c784667.png" density="land-mdpi" foreground="res/screen/android/mdpi_land_1616280181_5d98825c56487c784667.png" />
         <splash background="res/screen/android/xhdpi_land_1616280181_5d98825c56487c784667.png" density="land-xhdpi" foreground="res/screen/android/xhdpi_land_1616280181_5d98825c56487c784667.png" />
-    </platform>
+ -->  
+ </platform>
     <access origin='*'/>
     <plugin name='cordova-plugin-whitelist' />
     <allow-intent href='http://*/*'/>
